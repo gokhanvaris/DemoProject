@@ -10,6 +10,7 @@ class HomeDetail extends StatelessWidget {
       child: ListTile(
         title: Text(controller.apiServiceModel.title),
         subtitle: Text(controller.apiServiceModel.body),
+        leading: Text(controller.apiServiceModel.id.toString()),
       ),
     );
   }
